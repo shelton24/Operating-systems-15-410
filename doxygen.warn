@@ -1,0 +1,87 @@
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/README.dox:1: warning: the name `README.doc' supplied as the second argument in the \file statement is not an input file
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/add_one.h:10: warning: Member add_one1(int) (function) of file add_one.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/add_one.h:11: warning: Member add_one2(int) (function) of file add_one.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/add_one_test.c:13: warning: Member main() (function) of file add_one_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/alarming_test.c:26: warning: Member MEGABYTE (macro definition) of file alarming_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/alarming_test.c:30: warning: Member alarming(char *str, char *notstr) (function) of file alarming_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/alarming_test.c:37: warning: Member dingdong(int sig) (function) of file alarming_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/alarming_test.c:45: warning: Member main() (function) of file alarming_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/alarming_test.c:28: warning: Member work_done (variable) of file alarming_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/evil_test.c:19: warning: Member foo(char *str) (function) of file evil_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/evil_test.c:23: warning: Member main() (function) of file evil_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:20: warning: Member unix_error(char *message) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:26: warning: Member Malloc(size_t size) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:37: warning: Member Free(void *ptr) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:44: warning: Member Sigemptyset(sigset_t *set) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:53: warning: Member Sigaction(int signum, const struct sigaction *act, struct sigaction *oldact) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:62: warning: Member Sigprocmask(int how, const sigset_t *set, sigset_t *oldset) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:71: warning: Member Sigfillset(sigset_t *set) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:81: warning: Member Sigaddset(sigset_t *set, int signum) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:91: warning: Member Sigdelset(sigset_t *set, int signum) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:101: warning: Member Sigismember(const sigset_t *set, int signum) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:110: warning: Member Fileno(FILE *fp) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.c:119: warning: Member Write(int fd, const void *buf, size_t count) (function) of file syscall_wrappers.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:58: warning: Member PRINTF(...) (macro definition) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:20: warning: Member unix_error(char *msg) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:22: warning: Member Malloc(size_t size) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:24: warning: Member Free(void *ptr) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:26: warning: Member Sigemptyset(sigset_t *set) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:29: warning: Member Sigaction(int signum, const struct sigaction *act, struct sigaction *oldact) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:33: warning: Member Sigprocmask(int how, const sigset_t *set, sigset_t *oldset) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:36: warning: Member Sigfillset(sigset_t *set) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:39: warning: Member Sigaddset(sigset_t *set, int signum) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:42: warning: Member Sigdelset(sigset_t *set, int signum) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:45: warning: Member Sigismember(const sigset_t *set, int signum) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:48: warning: Member Fileno(FILE *fp) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/syscall_wrappers.h:51: warning: Member Write(int fd, const void *buf, size_t count) (function) of file syscall_wrappers.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:40: warning: Member MAX_BUF_SIZE (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:43: warning: Member STRING_MAX_CHARACTERS (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:46: warning: Member STRING_ARRAY_MAX_STRINGS (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:49: warning: Member SAVE_SIGNAL_MASK (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:54: warning: Member SETJMP_RET_VALUE_HANDLER (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:57: warning: Member DUMMY_VALUE (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:60: warning: Member GET_OLD_EBP(bp) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:65: warning: Member GET_ARG_OFFSET(bp, offset) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:68: warning: Member GET_ARG(bp) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:71: warning: Member GET_ARG_FLOAT(bp) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:74: warning: Member GET_NEXT_STRING_OFFSET(bp, offset) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:77: warning: Member GET_NEXT_STRING_ADDR(bp, offset) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:80: warning: Member DEREFERENCE_ADDR(bp) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:83: warning: Member GET_ADDR_DIFF(addr1, addr2) (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:86: warning: Member SYSCALL_RETURN_ERROR (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:88: warning: Member SYSCALL_RETURN_SUCCESS (macro definition) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:140: warning: Member reg_state (variable) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:141: warning: Member setjmp_ret_value (variable) of file traceback.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:684: warning: argument 'base_pointer' of command @param is not found in the argument list of build_string(char *str, char *buf, int read_cnt)
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:684: warning: argument 'arg_name' of command @param is not found in the argument list of build_string(char *str, char *buf, int read_cnt)
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:684: warning: argument 'arg_offset' of command @param is not found in the argument list of build_string(char *str, char *buf, int read_cnt)
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback.c:684: warning: The following parameters of build_string(char *str, char *buf, int read_cnt) are not documented:
+  parameter 'str'
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_asm.h:11: warning: Member get_return_addr(void *bp) (function) of file traceback_asm.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_asm.h:14: warning: Member get_initial_base_pointer() (function) of file traceback_asm.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_globals.c:16: warning: Member functions[FUNCTS_MAX_NUM] (variable) of file traceback_globals.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:24: warning: Member TYPE_CHAR (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:25: warning: Member TYPE_INT (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:26: warning: Member TYPE_FLOAT (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:27: warning: Member TYPE_DOUBLE (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:28: warning: Member TYPE_STRING (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:29: warning: Member TYPE_STRING_ARRAY (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:30: warning: Member TYPE_VOIDSTAR (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:31: warning: Member TYPE_UNKNOWN (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:35: warning: Member ARGS_MAX_NUM (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:37: warning: Member ARGS_MAX_NAME (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:39: warning: Member FUNCTS_MAX_NUM (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:41: warning: Member FUNCTS_MAX_NAME (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:44: warning: Member MAX_FUNCTION_SIZE_BYTES (macro definition) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:76: warning: Member functions[FUNCTS_MAX_NUM] (variable) of file traceback_internal.h is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/verify_test.c:13: warning: Member f4(int i, float f) (function) of file verify_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/verify_test.c:18: warning: Member f3(char c, char *str) (function) of file verify_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/verify_test.c:23: warning: Member f2(void) (function) of file verify_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/verify_test.c:28: warning: Member f1(char **array) (function) of file verify_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/tests/verify_test.c:33: warning: Member main() (function) of file verify_test.c is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:50: warning: Member type (variable) of class argsym_t is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:53: warning: Member offset (variable) of class argsym_t is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:56: warning: Member name[ARGS_MAX_NAME] (variable) of class argsym_t is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:64: warning: Member addr (variable) of class functsym_t is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:67: warning: Member name[FUNCTS_MAX_NAME] (variable) of class functsym_t is not documented.
+/afs/andrew.cmu.edu/usr20/sdsouza/p0/traceback/traceback_internal.h:70: warning: Member args[ARGS_MAX_NUM] (variable) of class functsym_t is not documented.

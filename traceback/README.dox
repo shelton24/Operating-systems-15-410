@@ -1,0 +1,114 @@
+/** @file README.doc
+ *  @brief 15-410 P0  : Stack Crawler
+ *
+ *
+ *  @author Shelton Dsouza (sdsouza)
+ *  @bug No known bugs
+ *
+ *
+ *
+ *  This file contains the traceback function for the traceback library. It
+ *  prints out a stack trace of the program it is called from. The stack 
+ *  trace will display the function calls made to reach the current location
+ *  in the program. 
+ *  The following arguments are supported for a function :
+ *
+ *  1. Character 2. Integer 3. Float 4. Double 5. String 6. String array
+ *
+ *  7. Void pointer 8. Unknown argument.
+ *
+ *
+ *           The traceback function does the following :
+ *           1. Install the SIGSEGV handler to handle the segmentation
+ *              faults due to accessing invalid addresses and save the current
+ *              mask of the process so that it can be restored on return from
+ *              traceback.
+ *           2. Get the current base pointer. If the base pointer is 
+ *              not a valid stack address, return with a FATAL error.
+ *           3. Get the return address from the base pointer and check 
+ *              if its a valid address. If not, return with a FATAL error.
+ *           4. Comapre the previous function's base pointer with the current
+ *              base pointer. If less, it's a condition for either a fatal
+ *              error or termination of traceback. If the previous function's
+ *              base pointer address is writtable, it's a FATAL condition else,
+ *              its a condition for traceback to terminate as we have reached 
+ *              a condition where we cannot backtrace further.
+ *           5. If the result of step 4 is greater, make the current base 
+ *              pointer = previous function's base pointer.
+ *           6. Using the return address, find the function which it belongs to.
+ *           7. Get the function name and arguments with the help of the 
+ *              global function table and the current base pointer and write
+ *              them into a buffer.
+ *           8. Write the buffer contents into the file.
+ *           9  Continue steps 2 to 8 untill a termination condition is reached
+ *              or a FATAl error is encountered.
+ *          10. Restore the handler for SIGSEGV and the process mask before
+ *              returning from traceback.
+ *
+ *
+ *   
+ *   Design decisions :
+ *
+ *  1. Finding the function using return address
+ *     
+ *     Choice 1: Not Preferred
+ *     Using return address to find out the call site and then decode
+ *     the call instruction to find out the address of the function being
+ *     called. This option was hard to code. I would have to consider cases
+ *     for a near call or a far call and extract the function address
+ *     accordingly. Also, x86 does not have fixed length instructions. Most
+ *     importantly, it would fail in tests like alarming_test.c where the
+ *     traaceback function is called from signal handlers because signal
+ *     handlers are not executed using a CALL instruction. Hence, finding 
+ *     the function using return address would not be possible.
+ *
+ *     Choice 2. Preferred
+ *     Given the global function table, finding the smallest positive 
+ *     difference between the starting addresses of all functions and the 
+ *     return address. This option was much easier and worked for all cases
+ *     including thoses cases where traceback would be called from a signal
+ *     handler.
+ *
+ *
+ *  2. Checking if a particular address is valid to avoid segmentation faults
+ *
+ *     Choice 1: Not preferred
+ *     Using write system call and check if error number EFAULT is returned.
+ *     Though I consider this as a good approach, write syscall can be 
+ *     interrupted by a signal with error number set to EINTR in which case 
+ *     the write will have to be performed again and again till we succeed.
+ *
+ *     Choice 2: Preferred
+ *     Using a SIGSEGV handler when a segmentation fault is encountered.
+ *     Here, I save the state of all the registers including the signal mask 
+ *     using sigsetjmp before writing or reading from a address location
+ *     If a segmentation fault is encountered during the process, the signal
+ *     will be caught by the handler. In the handler, siglongjmp is used to 
+ *     jump to the code location where the segfault was encountered and the
+ *     situation is handled appropriately.
+ *
+ *
+ *  3. Deciding between a FATAL condition and a termination condition
+ *
+ *     1. FATAL       : Base address is writtable. Maybe a stack address that 
+ *                      does not belong to a stack frame was pushed into the 
+ *                      stack. This means that the stack frame was corrupted 
+ *                      and traceback cannot continue further indicating a
+ *                      FATAL error.
+ *     2. TERMINATION : Base address is not writtable indicating termination
+ *                      condition. The location is not writtable means that it
+ *                      can be the address of a code segment. I have seen in 
+ *                      gdb that the ebp pushed just after entering main 
+ *                      belongs to a code segment. This should be an indication
+ *                      that we cannot continue with traceback and it is a good
+ *                      termination point. Also,I loop till base pointer is not
+ *                      NULL. I tried running a program that called traceback 
+ *                      in my local machine. I noticed that the ebp pushed
+ *                      was NULL inside the main function. Thus, base pointer
+ *                      becoming NULL is also a good termination point.
+ *
+ *
+ *
+ * 
+ *  
+ */
