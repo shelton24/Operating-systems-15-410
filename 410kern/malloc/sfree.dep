@@ -1,0 +1,8 @@
+410kern/malloc/sfree.o: 410kern/malloc/sfree.c \
+ 410kern/malloc/malloc_internal.h 410kern/inc/types.h 410kern/lmm/lmm.h
+
+410kern/malloc/malloc_internal.h:
+
+410kern/inc/types.h:
+
+410kern/lmm/lmm.h:

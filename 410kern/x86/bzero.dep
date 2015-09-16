@@ -1,0 +1,3 @@
+410kern/x86/bzero.o: 410kern/x86/bzero.S 410kern/inc/asm_style.h
+
+410kern/inc/asm_style.h:

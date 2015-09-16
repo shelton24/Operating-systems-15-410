@@ -1,0 +1,50 @@
+kern/game.o: kern/game.c spec/p1kern.h spec/common_kern.h \
+ 410kern/boot/multiboot.h 410kern/inc/types.h 410kern/x86/video_defines.h \
+ 410kern/stdio/stdio.h 410kern/inc/stddef.h 410kern/inc/stdarg.h \
+ 410kern/simics/simics.h 410kern/inc/malloc.h \
+ 410kern/malloc/malloc_internal.h 410kern/lmm/lmm.h \
+ 410kern/boot/multiboot.h 410kern/lmm/lmm.h 410kern/x86/seg.h \
+ 410kern/x86/interrupt_defines.h 410kern/x86/pic.h 410kern/x86/asm.h \
+ 410kern/inc/stdint.h 410kern/string/string.h 410kern/misc/nonogram_db.h
+
+spec/p1kern.h:
+
+spec/common_kern.h:
+
+410kern/boot/multiboot.h:
+
+410kern/inc/types.h:
+
+410kern/x86/video_defines.h:
+
+410kern/stdio/stdio.h:
+
+410kern/inc/stddef.h:
+
+410kern/inc/stdarg.h:
+
+410kern/simics/simics.h:
+
+410kern/inc/malloc.h:
+
+410kern/malloc/malloc_internal.h:
+
+410kern/lmm/lmm.h:
+
+410kern/boot/multiboot.h:
+
+410kern/lmm/lmm.h:
+
+410kern/x86/seg.h:
+
+410kern/x86/interrupt_defines.h:
+
+410kern/x86/pic.h:
+
+410kern/x86/asm.h:
+
+410kern/inc/stdint.h:
+
+410kern/string/string.h:
+
+410kern/misc/nonogram_db.h:

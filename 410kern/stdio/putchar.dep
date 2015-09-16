@@ -1,0 +1,20 @@
+410kern/stdio/putchar.o: 410kern/stdio/putchar.c 410kern/stdio/stdio.h \
+ 410kern/inc/stddef.h 410kern/inc/stdarg.h 410kern/inc/types.h \
+ spec/p1kern.h spec/common_kern.h 410kern/boot/multiboot.h \
+ 410kern/x86/video_defines.h
+
+410kern/stdio/stdio.h:
+
+410kern/inc/stddef.h:
+
+410kern/inc/stdarg.h:
+
+410kern/inc/types.h:
+
+spec/p1kern.h:
+
+spec/common_kern.h:
+
+410kern/boot/multiboot.h:
+
+410kern/x86/video_defines.h:

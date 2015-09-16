@@ -1,0 +1,34 @@
+410kern/entry.o: 410kern/entry.c spec/common_kern.h \
+ 410kern/boot/multiboot.h 410kern/inc/types.h 410kern/x86/cr.h \
+ 410kern/inc/stdint.h 410kern/x86/page.h 410kern/x86/interrupt_defines.h \
+ 410kern/x86/pic.h 410kern/boot/util.h 410kern/lmm/lmm.h \
+ 410kern/simics/simics.h 410kern/malloc/malloc_internal.h \
+ 410kern/inc/assert.h 410kern/inc/kvmphys.h
+
+spec/common_kern.h:
+
+410kern/boot/multiboot.h:
+
+410kern/inc/types.h:
+
+410kern/x86/cr.h:
+
+410kern/inc/stdint.h:
+
+410kern/x86/page.h:
+
+410kern/x86/interrupt_defines.h:
+
+410kern/x86/pic.h:
+
+410kern/boot/util.h:
+
+410kern/lmm/lmm.h:
+
+410kern/simics/simics.h:
+
+410kern/malloc/malloc_internal.h:
+
+410kern/inc/assert.h:
+
+410kern/inc/kvmphys.h:

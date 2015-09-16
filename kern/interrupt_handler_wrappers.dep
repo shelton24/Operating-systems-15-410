@@ -1,0 +1,1 @@
+kern/interrupt_handler_wrappers.o: kern/interrupt_handler_wrappers.S

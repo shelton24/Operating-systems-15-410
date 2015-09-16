@@ -1,0 +1,13 @@
+410kern/stdio/hexdump.o: 410kern/stdio/hexdump.c 410kern/stdlib/ctype.h \
+ 410kern/stdio/stdio.h 410kern/inc/stddef.h 410kern/inc/stdarg.h \
+ 410kern/inc/types.h
+
+410kern/stdlib/ctype.h:
+
+410kern/stdio/stdio.h:
+
+410kern/inc/stddef.h:
+
+410kern/inc/stdarg.h:
+
+410kern/inc/types.h:

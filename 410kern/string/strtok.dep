@@ -1,0 +1,8 @@
+410kern/string/strtok.o: 410kern/string/strtok.c 410kern/string/string.h \
+ 410kern/inc/types.h 410kern/inc/stddef.h
+
+410kern/string/string.h:
+
+410kern/inc/types.h:
+
+410kern/inc/stddef.h:

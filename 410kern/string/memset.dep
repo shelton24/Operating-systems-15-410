@@ -1,0 +1,3 @@
+410kern/string/memset.o: 410kern/string/memset.c 410kern/inc/types.h
+
+410kern/inc/types.h:

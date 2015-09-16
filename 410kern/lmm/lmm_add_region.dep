@@ -1,0 +1,11 @@
+410kern/lmm/lmm_add_region.o: 410kern/lmm/lmm_add_region.c \
+ 410kern/lmm/lmm.h 410kern/inc/types.h 410kern/lmm/lmm_types.h \
+ 410kern/inc/assert.h
+
+410kern/lmm/lmm.h:
+
+410kern/inc/types.h:
+
+410kern/lmm/lmm_types.h:
+
+410kern/inc/assert.h:

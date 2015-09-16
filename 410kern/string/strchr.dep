@@ -1,0 +1,6 @@
+410kern/string/strchr.o: 410kern/string/strchr.c 410kern/string/string.h \
+ 410kern/inc/types.h
+
+410kern/string/string.h:
+
+410kern/inc/types.h:

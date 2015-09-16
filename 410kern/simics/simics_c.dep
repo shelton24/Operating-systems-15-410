@@ -1,0 +1,13 @@
+410kern/simics/simics_c.o: 410kern/simics/simics_c.c \
+ 410kern/simics/simics.h 410kern/inc/stdarg.h 410kern/stdio/stdio.h \
+ 410kern/inc/stddef.h 410kern/inc/types.h
+
+410kern/simics/simics.h:
+
+410kern/inc/stdarg.h:
+
+410kern/stdio/stdio.h:
+
+410kern/inc/stddef.h:
+
+410kern/inc/types.h:

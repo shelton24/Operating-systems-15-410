@@ -1,0 +1,6 @@
+410kern/x86/interrupts.o: 410kern/x86/interrupts.c \
+ 410kern/x86/interrupt_defines.h 410kern/x86/pic.h
+
+410kern/x86/interrupt_defines.h:
+
+410kern/x86/pic.h:

@@ -1,0 +1,11 @@
+410kern/lmm/lmm_alloc_page.o: 410kern/lmm/lmm_alloc_page.c \
+ 410kern/lmm/lmm.h 410kern/inc/types.h 410kern/lmm/lmm_types.h \
+ 410kern/x86/page.h
+
+410kern/lmm/lmm.h:
+
+410kern/inc/types.h:
+
+410kern/lmm/lmm_types.h:
+
+410kern/x86/page.h:

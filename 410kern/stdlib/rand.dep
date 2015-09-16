@@ -1,0 +1,15 @@
+410kern/stdlib/rand.o: 410kern/stdlib/rand.c 410kern/stdlib/stdlib.h \
+ 410kern/inc/stddef.h 410kern/inc/malloc.h \
+ 410kern/malloc/malloc_internal.h 410kern/inc/types.h 410kern/lmm/lmm.h
+
+410kern/stdlib/stdlib.h:
+
+410kern/inc/stddef.h:
+
+410kern/inc/malloc.h:
+
+410kern/malloc/malloc_internal.h:
+
+410kern/inc/types.h:
+
+410kern/lmm/lmm.h:

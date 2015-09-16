@@ -1,0 +1,33 @@
+####################
+# Inventory
+####################
+
+README.STARTING_P1 - this self-referential file
+config.mk          - to build, edit config.mk--not the Makefile!
+kern               - template files; edit these and add more!
+kern/inc           - place .h files here if you wish
+update.sh          - see below
+
+####################
+# Getting started
+####################
+
+To get started, run
+
+  % ./update.sh web
+
+The first time you'll see gajillions of messages about
+missing files, because when you start out you're missing
+gajillions of files.  That's ok.  Once you've fetched
+those files you can try "make".  You'll need to have
+the 410 bin/ directory on your PATH to find the tool-chain
+wrappers (410-gcc, 410-ld, etc.).
+
+Please be careful when adding things to config.mk that you
+put everything in the right place--if some .o files are
+listed in the wrong place your game might build for you but
+either the game or the console tester won't build for us.
+
+As you implement each part of the driver library, delete
+the corresponding part of kern/fake.c.  Eventually delete
+the file.  At each step, modify your config.mk appropriately.

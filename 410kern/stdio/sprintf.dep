@@ -1,0 +1,6 @@
+410kern/stdio/sprintf.o: 410kern/stdio/sprintf.c 410kern/inc/stdarg.h \
+ 410kern/stdio/doprnt.h
+
+410kern/inc/stdarg.h:
+
+410kern/stdio/doprnt.h:

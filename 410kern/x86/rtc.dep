@@ -1,0 +1,8 @@
+410kern/x86/rtc.o: 410kern/x86/rtc.c 410kern/x86/rtc.h 410kern/x86/asm.h \
+ 410kern/inc/stdint.h
+
+410kern/x86/rtc.h:
+
+410kern/x86/asm.h:
+
+410kern/inc/stdint.h:

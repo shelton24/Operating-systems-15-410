@@ -1,0 +1,15 @@
+410kern/malloc/calloc.o: 410kern/malloc/calloc.c 410kern/inc/assert.h \
+ 410kern/inc/stddef.h 410kern/malloc/malloc_internal.h \
+ 410kern/inc/types.h 410kern/lmm/lmm.h 410kern/string/string.h
+
+410kern/inc/assert.h:
+
+410kern/inc/stddef.h:
+
+410kern/malloc/malloc_internal.h:
+
+410kern/inc/types.h:
+
+410kern/lmm/lmm.h:
+
+410kern/string/string.h:

@@ -1,0 +1,7 @@
+default=0
+timeout=5
+title The game
+	kernel (fd0)/boot/kernel.gz
+
+title 410 Console Test Program
+	kernel (fd0)/boot/tester.gz

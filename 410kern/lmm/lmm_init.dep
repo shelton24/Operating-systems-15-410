@@ -1,0 +1,8 @@
+410kern/lmm/lmm_init.o: 410kern/lmm/lmm_init.c 410kern/lmm/lmm.h \
+ 410kern/inc/types.h 410kern/lmm/lmm_types.h
+
+410kern/lmm/lmm.h:
+
+410kern/inc/types.h:
+
+410kern/lmm/lmm_types.h:

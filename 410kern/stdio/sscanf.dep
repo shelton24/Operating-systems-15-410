@@ -1,0 +1,6 @@
+410kern/stdio/sscanf.o: 410kern/stdio/sscanf.c 410kern/inc/stdarg.h \
+ 410kern/stdio/doscan.h
+
+410kern/inc/stdarg.h:
+
+410kern/stdio/doscan.h:
